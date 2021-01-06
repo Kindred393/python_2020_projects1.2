@@ -1,0 +1,15 @@
+def shop (money, food, ammo, cloths, parts, ox):
+    bill = 0
+    items = ["Oxen", "Ammunition", "Wagon parts", "Check Out"]
+    spent_on_items = [0.00, 0.00, 0.00, 0.00, 0.00, bill]
+    Print(" Before leaving Independance you should buy items")
+    Print(str.format("You have {} in cash to make the trip"))
+    Print("remember you can buy supplies along the way")
+    input("Press any Key to Continue")
+
+    while True:
+    spent_on_items[len(spent_on_items)-1] = bill
+    print("Welcome to the General Store")
+    print("Here is a list of things you can buy")
+    for i in range (len(items)):
+        print(str.format("")
